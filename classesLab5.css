@@ -16,3 +16,12 @@ p {
  b{
     color: #ff3636;
  }
+h3{
+   color: #ff3636;
+ }
+ .container_input{
+    display: block;
+    border: 2px solid #000000;
+    padding: 12px;
+    color: #333;
+ }
