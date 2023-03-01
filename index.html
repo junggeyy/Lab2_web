@@ -3,6 +3,13 @@
   <title> Intro Page </title>
   <link rel="stylesheet" type="text/css" href="classesLab5.css">
   <script type="text/javascript" src="ex_javascript.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
 </head>
 <body>
 <b> Hello! I am Vickey.</b>
@@ -53,6 +60,11 @@
     <td>A</td>
   </tr>
 </table>
+  <div class="container">
+  <h3 style="font-family: 'Calibri', sans-serif;">Using Bootstrap:</h3>
+  <p>This is an example of using Bootstrap UI.</p>
+  <p style="font-family: 'Tilt Warp', cursive;">This is an example of using a Google Font</p>
+</div>
 <h3>Enter your details for signing up:</h3>
 <form id="signup-form">
   <div class="container_input">
@@ -65,7 +77,7 @@
     <label for="password">Password:</label>
     <input type="password" id="password" name="password"><br><br>
     <input type="submit" value="Submit">
-    <button onclick="message()">Reset</button>
+    <button class="btn btn-primary" onclick="message()">Reset</button>
   </div>
  </form>
 </body>
